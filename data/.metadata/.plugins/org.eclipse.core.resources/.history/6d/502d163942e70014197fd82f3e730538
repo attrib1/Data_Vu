@@ -1,0 +1,19 @@
+import UseAbstractClass.Employee;
+
+
+public class UseAbstractClass {
+	abstract class Employee{
+		public  abstract void setOt(double a);
+		public double calOt(int h,double s) {
+			return h*s;
+		}
+		public abstract void setName(String n); 
+	}
+	public static void main(String[] args) {
+		
+	}
+	
+}
+class Staff extends Employee{
+	
+}

@@ -1,0 +1,29 @@
+package Education;
+
+import java.util.Scanner;
+
+import Grade.*;
+
+public class useStudent {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Student st = new Student("", "", 0.0, "", "");
+		
+		for (int i = 1; i <= 3; i++) {
+			System.out.print("Enter ID : ");
+			st.Id = scan.next();	
+			System.out.print("Enter Name : ");
+			st.name = scan.next();	
+			System.out.print("Enter Subject : ");
+			st.subject = scan.next();	
+			System.out.print("Enter Total : ");
+			st.total = scan.nextDouble();
+			
+			st.calStudent(st.total);
+			System.out.println("Grade : "+st.grade);
+			System.out.println("----------------------------");
+		
+		}
+		
+	}
+}

@@ -1,0 +1,27 @@
+package Emp;
+import java.util.Scanner;
+
+
+public class UseInterface {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}
+interface Employee1 {
+	void sayHello();
+	void sayWebsite();
+}
+
+interface Employee2 {
+	
+	void setOT1(double s);
+    void calOT1(int h , double s);
+    
+}
+ 
+class name implements {
+
+	
+}

@@ -1,0 +1,32 @@
+public class UseAbstractClass {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+abstract class Employee {
+
+	public abstract void setOt(double a);
+
+	public double calOt(int h, double s) {
+		return h * s;
+	}
+
+	public abstract void setName(String n);
+}
+
+class Staff extends Employee {
+	@Override
+	public void setOt(double a) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void setName(String n) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

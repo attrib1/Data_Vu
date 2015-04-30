@@ -1,0 +1,33 @@
+public class UseAbstractClass {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+abstract class Employee {
+
+	public abstract void setOt(double a);
+
+	public double calOt(int h, double s) {
+		return h * s;
+	}
+
+	public abstract void setName(String n);
+}
+
+class Staff extends Employee {
+	@Override
+	public void setOt(double a) {
+		System.out.println("OT Rate = "+ a +"Bath/Hr");
+
+	}
+
+	@Override
+	public void setName(String n) {
+		System.out.println("Name : "+n);
+
+
+	}
+
+}

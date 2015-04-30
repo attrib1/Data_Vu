@@ -1,0 +1,34 @@
+package Emp;
+import java.util.Scanner;
+
+
+public class UseInterface {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}
+
+
+ interface Employee2 {	
+	void setOT(double s);
+    void calOT(int h , double s);    
+}
+ 
+class InterfaceTest implements Employee2 {
+
+	@Override
+	public void setOT(double s) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void calOT(int h, double s) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

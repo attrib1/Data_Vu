@@ -1,0 +1,14 @@
+package Education;
+
+import Grade.*;
+
+
+public class useStudent {
+	public static void main(String[] args) {
+			String name="", grade="",id="",subject="";		
+			double total=0.0;
+			
+		
+			Student st = new Student(id, name, total, grade,subject);
+	}
+}

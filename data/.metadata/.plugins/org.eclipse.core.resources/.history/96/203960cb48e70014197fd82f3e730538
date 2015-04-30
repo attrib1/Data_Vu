@@ -1,0 +1,33 @@
+package Emp;
+
+import java.util.Scanner;
+
+public class UseInterface {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}
+
+interface Employee2 {
+	void setOT(double s);
+
+	double calOT(int h, double s);
+}
+
+class InterfaceTest implements Employee2 {
+
+	@Override
+	public void setOT(double s) {
+		System.out.println("OT Rate = "+ s +"Bath/HR.");
+
+	}
+
+	@Override
+	public double calOT(int h, double s) {
+		return h * s;
+
+	}
+
+}
